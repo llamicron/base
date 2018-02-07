@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "taskName": "build",
+      "command": "make",
+      "suppressTaskName": true,
+      "args": [
+        "build"
+      ]
+    },
+    {
+      "taskName": "clean",
+      "command": "make",
+      "suppressTaskName": true,
+      "args": [
+        "clean"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "taskName": "upload",
+      "command": "make",
+      "suppressTaskName": true,
+      "args": [
+        "upload"
+      ]
+    },
+    {
+      "taskName": "install",
+      "command": "make",
+      "suppressTaskName": true,
+      "args": [
+        "install"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "test",
+      "command": "pytest",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    }
+  ]
+}
